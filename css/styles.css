@@ -65,7 +65,7 @@ p:last-child {
 .hero {
   text-align: center;
   background-color: var(--primary-dark-bg);
-  padding: 200px;
+  padding: 200px 0 200px;
 }
 .hero-title {
   font-family: var(--main-font);
@@ -87,7 +87,6 @@ p:last-child {
   letter-spacing: 0.03em;
   color: var(--primary-txt);
   margin-bottom: 50px;
-  margin-bottom: 0;
 }
 .logo-web {
   font-family: var(--secondary-font);
@@ -108,6 +107,8 @@ img {
 }
 .header {
   display: flex;
+
+  align-items: center;
 }
 .contacts {
   display: flex;
@@ -127,6 +128,7 @@ img {
 .header-container {
   display: flex;
   align-items: center;
+  border-bottom: 32px;
 }
 
 .header-contacts {
@@ -138,6 +140,7 @@ img {
 
 .nav {
   display: flex;
+  align-items: center;
 }
 
 .nav-link {
@@ -148,6 +151,8 @@ img {
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--primary-txt);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .nav-item {
@@ -250,6 +255,7 @@ img {
 }
 
 /* Занятие */
+
 .our-work-list {
   display: flex;
   align-items: center;
@@ -292,15 +298,19 @@ img {
 .team-item:last-child {
   margin-right: 0;
 }
+.caption-team {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
 /* Футер */
 address {
   font-style: normal;
+  margin-top: 20px;
 }
 .footer {
   padding-top: 60px;
   padding-bottom: 60px;
   background: var(--primary-dark-bg);
-  padding-left: 15px;
 }
 
 .footer-link {
@@ -318,6 +328,9 @@ address {
 }
 .address-item {
   margin-top: 9px;
+}
+.address-item:first-child {
+  margin-top: 0;
 }
 
 .address-footer {
