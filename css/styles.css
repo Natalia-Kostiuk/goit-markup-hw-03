@@ -107,8 +107,8 @@ img {
 }
 .header {
   display: flex;
-
   align-items: center;
+  border-bottom: 1px solid #ececec;
 }
 .contacts {
   display: flex;
@@ -128,7 +128,6 @@ img {
 .header-container {
   display: flex;
   align-items: center;
-  border-bottom: 32px;
 }
 
 .header-contacts {
@@ -266,6 +265,9 @@ img {
 .our-work-item:last-child {
   margin-right: 0;
 }
+.our-work.section {
+  padding-top: 0;
+}
 /* Команда */
 .team {
   background-color: var(--secondary-light-bg);
@@ -372,8 +374,8 @@ address {
   margin-right: 0;
 }
 .portfolio {
-  margin-top: 94px;
-  margin-bottom: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 /* Продукты */
 .products {
@@ -383,9 +385,9 @@ address {
   margin-top: 50px;
 }
 .products-name {
-  margin-top: 20px;
+  /* margin-top: 20px;
   margin-right: 24px;
-  margin-left: 24px;
+  margin-left: 24px; */
   margin-bottom: 4px;
 
   font-family: var(--main-font);
@@ -396,10 +398,6 @@ address {
   color: var(--primary-txt);
 }
 .products-type {
-  margin-right: 24px;
-  margin-left: 24px;
-  margin-bottom: 20px;
-
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 16px;
@@ -418,5 +416,8 @@ address {
   margin-bottom: 0;
 }
 .caption-pic {
-  padding: 20px, 24px;
+  padding: 20px 22px;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
 }
