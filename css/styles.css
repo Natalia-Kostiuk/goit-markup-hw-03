@@ -191,9 +191,6 @@ img {
   align-items: center;
 }
 
-.nav-list .link {
-  transition: color var(transition-duration) var(--transition-timing-function);
-}
 
 .nav-link:hover,
 .nav-link:focus {
@@ -297,8 +294,8 @@ img {
 
 .backdrop {
   position: fixed;
-  width: 100%; 
-  height: 100%; 
+  width: 100%;
+  height: 100%;
   top: 0px;
   left: 0px;
   z-index: 1;
@@ -786,7 +783,7 @@ address {
   transition: transform var(--transition-duration) var(--transition-timing-function);
 }
 
-.portfolio-products { 
+.portfolio-products {
   color: inherit;
   position: relative;
   display: block;
